@@ -1,6 +1,6 @@
 import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
-import { db } from "./db";
+import { db } from "./config/db.config";
 import router from "./routes/route";
 import { temp } from "./testfile";
 
